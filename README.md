@@ -1,6 +1,6 @@
 # Projeto de site do ENAPET 2013
 
-## Esturtura
+## Estrutura
 
 Abaixo a estrutura de arquivo do site.
 
