@@ -8,7 +8,7 @@ ul { margin: 0; }
 
 /* Menu */
 body {
-  padding-top: 60px; /* fixed navbar */
+  padding-top: 50px; /* fixed navbar */
 }
 
 .main-header {
@@ -39,6 +39,7 @@ body {
   text-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
+.textshadow .navbar li a:hover,
 .textshadow .navbar .active a {
   text-shadow: none;
 }
@@ -46,6 +47,11 @@ body {
 .main-header .navbar {
   background-color: rgb(215, 62, 29);
   font-size: 17px;
+}
+
+.boxshadow .main-header .navbar {
+  -webkit-box-shadow:  0px 0px 10px 1px rgb(0,0,0);
+  box-shadow:  0px 0px 10px 1px rgb(0,0,0);
 }
 
 .main-header .navbar .active,
@@ -58,7 +64,7 @@ body {
 
 .main-header .navbar li:hover a,
 .main-header .navbar .active a {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: rgb(215, 62, 29);
 }
 
@@ -104,6 +110,7 @@ body {
   color: white;
 }
 
+<<<<<<< HEAD
 .footer-info .see-more {
   font-family: Georgia, Helvetiva, Arial, sans-serif;
   font-size: 13;
