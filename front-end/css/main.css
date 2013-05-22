@@ -56,23 +56,95 @@ body {
   padding-bottom: 9px;
 }
 
-.main-header .navbar li a {
-  display: block;
-  padding: 15px 20px;
-  color: white;
-  text-decoration: none;
-}
-
-.textshadow .main-header .navbar li a {
-  text-shadow: 0 0 1px #000000;
-}
-
-.textshadow .main-header .navbar .active a {
-  text-shadow: none;
-}
-
 .main-header .navbar li:hover a,
 .main-header .navbar .active a {
   background-color: white;
   color: rgb(215, 62, 29);
+}
+
+/* Footer */
+.main-footer {
+  background: url("../img/noisy-background-2.png");
+  padding-bottom: 80px;
+  color: white;
+}
+
+.footer-info h1 {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 30px;
+  padding-left: 10px;
+  margin: 0 0 20px 30px;
+  background: url("../img/noisy-background.png");
+}
+
+.footer-info .news {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  list-style: none;
+  margin-left: 30px;
+}
+
+.footer-info .news li {
+  border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.footer-info .news li:last-child {
+  border: none;
+}
+
+.footer-info .news li a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  margin: 15px 0;
+  color: white;
+}
+
+.footer-info .see-more {
+  font-family: Georgia, Helvetiva, Arial, sans-serif;
+  font-size: 13;
+  font-style: italic;
+  float: right;
+  color: white;
+}
+
+.footer-info .supporters {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.footer-info .supporters li {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.footer-info .supporters .last-support-image {
+  margin-right: 0;
+}
+
+.footer-info .supporters li img {
+  height: 85px;
+  width: 160px;
+  border: 5px solid rgb(38, 38, 38);
+}
+
+.main-footer .navigation {
+  background: url("../img/noisy-background.png");
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.main-footer .navbar {
+  margin-bottom: 0px;
+  padding-right: 20px;
+}
+
+.main-footer .navbar .active,
+.main-footer .navbar li:hover {
+  background-color: rgba(255, 255, 255, 0.05);
 }
