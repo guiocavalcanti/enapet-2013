@@ -18,6 +18,7 @@ body {
 
 .main-header .navbar {
   background-color: rgb(215, 62, 29);
+  font-size: 17px;
 }
 
 .main-header .navbar ul {
@@ -44,6 +45,14 @@ body {
   padding: 15px 20px;
   color: white;
   text-decoration: none;
+}
+
+.textshadow .main-header .navbar li a {
+  text-shadow: 0 0 1px #000000;
+}
+
+.textshadow .main-header .navbar .active a {
+  text-shadow: none;
 }
 
 .main-header .navbar li:hover a,
