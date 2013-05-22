@@ -16,20 +16,36 @@ body {
   font-weight: 400;
 }
 
-.main-header .navbar {
-  background-color: rgb(215, 62, 29);
-  font-size: 17px;
-}
-
-.main-header .navbar ul {
+/* Navigation Bar */
+.navbar ul {
   list-style: none;
   float: right;
   margin-right: 10px;
   height: 50px;
 }
 
-.main-header .navbar li {
+.navbar li {
   float: left;
+}
+
+.navbar li a {
+  display: block;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.textshadow .navbar li a {
+  text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.textshadow .navbar .active a {
+  text-shadow: none;
+}
+
+.main-header .navbar {
+  background-color: rgb(215, 62, 29);
+  font-size: 17px;
 }
 
 .main-header .navbar .active,
