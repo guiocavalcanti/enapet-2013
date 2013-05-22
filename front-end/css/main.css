@@ -32,8 +32,7 @@ body {
 }
 
 .main-header .navbar .active,
-.main-header .navbar li:hover,
-.main-header .navbar .active:hover {
+.main-header .navbar li:hover {
   background-image: url("../img/white-nipple-down.png");
   background-repeat: no-repeat;
   background-position: center 50px;
