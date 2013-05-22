@@ -1,22 +1,54 @@
+/* Minnor resets */
+ul { margin: 0; }
 
+/* Fixed layout */
+.container {
+  width: 1230px;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* Menu */
+body {
+  padding-top: 60px; /* fixed navbar */
+}
 
+.main-header {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
 
+.main-header .navbar {
+  background-color: rgb(215, 62, 29);
+}
 
+.main-header .navbar ul {
+  list-style: none;
+  float: right;
+  margin-right: 10px;
+  height: 50px;
+}
 
+.main-header .navbar li {
+  float: left;
+}
 
+.main-header .navbar .active,
+.main-header .navbar li:hover,
+.main-header .navbar .active:hover {
+  background-image: url("../img/white-nipple-down.png");
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  padding-bottom: 9px;
+}
 
+.main-header .navbar li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
+.main-header .navbar li:hover a,
+.main-header .navbar .active a {
+  background-color: white;
+  color: rgb(215, 62, 29);
+}
