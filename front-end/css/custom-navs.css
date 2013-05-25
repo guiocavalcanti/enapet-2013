@@ -30,6 +30,10 @@
   color: rgb(223, 62, 38);
   background-color: rgb(255, 255, 255);
   border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
   border-top: 5px solid rgb(255, 255, 255);
 }
 
