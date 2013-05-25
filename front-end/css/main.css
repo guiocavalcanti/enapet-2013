@@ -93,7 +93,7 @@ body {
   text-transform: uppercase;
   line-height: 30px;
   padding-left: 10px;
-  margin: 0 0 20px 30px;
+  margin-bottom: 20px;
   background: url("../img/noisy-background.png");
 }
 
@@ -101,7 +101,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   list-style: none;
-  margin-left: 30px;
+  margin-left: 0;
 }
 
 .footer-info .news li {
@@ -131,13 +131,13 @@ body {
 
 .footer-info .supporters {
   list-style: none;
-  margin-left: 30px;
+  margin-left: 0;
 }
 
 .footer-info .supporters li {
   float: left;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .footer-info .supporters .last-support-image {
