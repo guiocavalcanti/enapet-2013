@@ -14,6 +14,7 @@ ul { margin: 0; }
 
 /* Menu */
 body {
+  background-color: rgb(243, 247, 251);
   padding-top: 50px; /* fixed navbar */
 }
 
@@ -254,4 +255,220 @@ body {
   margin-left: 264px;
   margin-top: -18px;
   height: 18px;
+}
+
+/* Content */
+.content {
+  background-color: rgb(224, 62, 29);
+}
+
+/* Content header */
+.content .content-header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(222, 226, 229);
+ }
+
+.content .content-header h1 {
+  margin: 0;
+  padding: 40px 0 35px 0;
+}
+
+.content .content-header h1 .section-name {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-right: 25px;
+  float: left;
+}
+
+.content .content-header h1 small {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  text-transform: lowercase;
+  color: rgb(100, 100, 100);
+  display: block;
+  padding-top: 11px;
+}
+
+ /* Content body */
+.content .content-body {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.content .content-body .hack {
+  background-color: rgb(243, 247, 251);
+  height: 448px;
+  float: left;
+  width: 4000px;
+  margin-left: -4000px;
+}
+
+/* Contact page */
+.content .content-body .contact-form {
+  background-color: rgb(243, 247, 251);
+  margin: 0;
+  width: 572px;
+  height: 413px;
+  padding-top: 35px;
+  padding-right: 30px;
+  float: left;
+}
+
+.content .content-body .contact-form legend {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: oblique;
+  color: rgba(215, 62, 29, 0.80);
+  border: none;
+}
+
+.content .content-body .contact-form legend:after {
+  background: url("../img/dashed-separator.png") repeat-x;
+  display: block;
+  width: 365px;
+  height: 2px;
+  content: "";
+  position: relative;
+  top: -22px;
+  left: 200px;
+}
+
+.content .content-body .contact-form label {
+  display: none;
+ }
+
+.content .content-body .contact-form input,
+.content .content-body .contact-form textarea {
+  width: 549px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.content .content-body .contact-form input {
+  height: 28px;
+}
+
+.content .content-body .contact-form textarea {
+  height: 104px;
+  padding-top: 10px;
+}
+
+.content .content-body .contact-form input::-webkit-input-placeholder,
+.content .content-body .contact-form textarea::-webkit-input-placeholder {
+  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 17px;
+  color: rgba(215, 62, 29, 0.5);
+}
+
+.content .content-body .contact-form input:-moz-placeholder,  /* Firefox 18- */
+.content .content-body .contact-form textarea:-moz-placeholder {
+  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 17px;
+  color: rgba(215, 62, 29, 0.5);
+}
+
+.content .content-body .contact-form input::-moz-placeholder,  /* Firefox 19+ */
+.content .content-body .contact-form textarea::-moz-placeholder {
+  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 17px;
+  color: rgba(215, 62, 29, 0.5);
+}
+
+.content .content-body .contact-form input:-ms-input-placeholder,
+.content .content-body .contact-form textarea:-ms-input-placeholder {
+  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 17px;
+  color: rgba(215, 62, 29, 0.5);
+}
+
+.content .content-body .contact-form .buttons {
+  margin-top: 5px;
+  float: right;
+  font-size: 12px;
+}
+
+/* Address */
+address {
+  background-color: rgb(224, 62, 29);
+  padding: 50px 0 50px 40px;
+  float: left;
+  margin: 0;
+  width: 550px;
+}
+
+address .contact-options {
+  list-style: none;
+}
+
+address .contact-options li {
+  width: 550px;
+  margin-bottom: 30px;
+
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+address .contact-options li:last-child {
+  margin-bottom: 0;
+}
+
+address .contact-options .icon {
+  background: url("../img/contact-icons.png") no-repeat;
+  display: block;
+  padding-left: 100px;
+}
+
+address .contact-options .phone {
+  padding-top: 12px;
+  height: 37px;
+  background-position: 0 0;
+}
+
+address .contact-options .physical-address {
+  padding-top: 7px;
+  height: 37px;
+  background-position: 0 -95px;
+}
+
+address .contact-options .twitter {
+  padding-top: 20px;
+  height: 33px;
+  background-position: 0 -177px;
+}
+
+address .contact-options .email {
+  padding-top: 3px;
+  height: 26px;
+  background-position: 0 -280px;
+}
+
+address .contact-options .facebook {
+  padding-top: 20px;
+  height: 32px;
+  background-position: 0 -365px;
+}
+
+address .contact-options li a {
+  color: rgb(255, 255, 255);
+}
+
+address .contact-options li a:hover {
+  color: rgb(255, 255, 255);
 }
