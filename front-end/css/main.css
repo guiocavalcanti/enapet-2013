@@ -388,6 +388,10 @@ address {
   float: left;
   margin: 0;
   width: 550px;
+
+  background-image: url("../img/light-blue-nipple-right.png");
+  background-position: 0 210px;
+  background-repeat: no-repeat;
 }
 
 address .contact-options {
