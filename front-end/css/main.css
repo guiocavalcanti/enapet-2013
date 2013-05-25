@@ -121,7 +121,7 @@ body {
 }
 
 .footer-info .see-more {
-  font-family: Georgia, Helvetiva, Arial, sans-serif;
+  font-family: Georgia, Helvetica, Arial, sans-serif;
   font-size: 13;
   font-style: italic;
   float: right;
@@ -253,5 +253,5 @@ body {
   width: 284px;
   margin-left: 264px;
   margin-top: -18px;
-  height: 17px;
+  height: 18px;
 }
