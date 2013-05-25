@@ -1,11 +1,34 @@
 /* Minnor resets */
-ul { margin: 0; }
+ul, ol { margin: 0; }
 
 /* Util */
 .replacement {
   text-indent: -999px;
   overflow: hidden;
- }
+}
+
+h1 {
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h1 small {
+  text-transform: none;
+}
+
+h1 .section-name {
+  display: block;
+  margin-right: 25px;
+  float: left;
+}
+
+a > small {
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
 
 /* Fixed layout */
 .container {
@@ -122,9 +145,6 @@ body {
 }
 
 .footer-info .see-more {
-  font-family: Georgia, Helvetica, Arial, sans-serif;
-  font-size: 13;
-  font-style: italic;
   float: right;
   color: white;
 }
@@ -240,6 +260,7 @@ body {
 /* Content */
 .content {
   background-color: rgb(224, 62, 29);
+  clear: both;
 }
 
 /* Content header */
@@ -254,14 +275,7 @@ body {
 }
 
 .content .content-header h1 .section-name {
-  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  text-transform: uppercase;
   color: rgb(0, 0, 0);
-  display: block;
-  margin-right: 25px;
-  float: left;
 }
 
 .content .content-header h1 small {
