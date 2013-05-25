@@ -1,6 +1,24 @@
 /* Minnor resets */
 ul, ol { margin: 0; }
 
+/* Sticky footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 480px; /* bottom = footer height */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 480px;
+    width: 100%;
+}
+
 /* Util */
 .replacement {
   text-indent: -999px;
@@ -105,7 +123,6 @@ body {
 /* Footer */
 .main-footer {
   background: url("../img/noisy-background-2.png");
-  padding-bottom: 80px;
   color: white;
 }
 
