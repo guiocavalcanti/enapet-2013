@@ -1,0 +1,53 @@
+/* Tabbable Navigation */
+.tabbable {
+  margin: 50px 0;
+}
+
+.tabbable .nav-tabs {
+  margin-bottom: 0;
+  border: none;
+}
+
+.tabbable .nav-tabs li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  margin-left: 30px;
+  border: 1px solid rgb(222, 226, 229);
+}
+
+.tabbable .nav-tabs li:hover,
+.tabbable .nav-tabs .active {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.tabbable .nav-tabs li:first-child {
+  margin-left: 125px;
+}
+
+.tabbable .nav-tabs li a {
+  padding: 26px 30px;
+  margin-right: 0;
+  color: rgb(223, 62, 38);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-top: 5px solid rgb(255, 255, 255);
+}
+
+.tabbable .nav-tabs .active a:focus {
+  color: rgb(223, 62, 38);
+}
+
+.tabbable .nav-tabs .active a:hover {
+  color: rgb(223, 62, 38);
+  border: none;
+  border-top: 5px solid rgb(228, 71, 44);
+}
+
+.borderradius .tabbable .nav-tabs .active a,
+.borderradius .tabbable .nav-tabs li a:hover {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  border-top: 5px solid rgb(228, 71, 44);
+}
