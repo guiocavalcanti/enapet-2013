@@ -285,6 +285,11 @@ body {
   border-bottom: 1px solid rgb(222, 226, 229);
  }
 
+.content .content-header.clean {
+  background-color: rgb(243, 247, 251);
+  border: none;
+}
+
 .content .content-header h1 {
   text-transform: uppercase;
   margin: 0;
@@ -652,6 +657,10 @@ address .contact-options li a:hover {
   display: block;
   width: 465px;
   float: right;
+}
+
+.schedule {
+  background-color: rgb(243, 247, 251);
 }
 
 /* News page */
