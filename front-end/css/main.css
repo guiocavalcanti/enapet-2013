@@ -201,13 +201,13 @@ body {
 .event-call {
   padding-top: 20px;
   background: url("../img/ilha-do-recife-edited.jpg") 0 1236px;
-  height: 740px;
 }
 
 .event-call .call-infos {
   float: none;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
+
 .event-call .call-infos h1 {
   background: url("../img/logotipo.png");
   width: 564px;
