@@ -839,3 +839,36 @@ article ol {
   top: -300px;
   left: 120px;
 }
+
+/* Social network buttons */
+#social-networks {
+  float: right;
+  margin-right: 30px;
+}
+
+#social-networks li a {
+  display: block;
+  background: url("../img/social-networks.png") no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+#social-networks li .facebook {
+  background-position: -31px 0;
+}
+
+#social-networks li .gplus {
+  background-position: -62px 0;
+}
+
+#social-networks li .twitter:hover {
+  background-position: 0 -40px;
+}
+
+#social-networks li .facebook:hover {
+  background-position: -31px -40px;
+}
+
+#social-networks li .gplus:hover {
+  background-position: -62px -40px;
+}
