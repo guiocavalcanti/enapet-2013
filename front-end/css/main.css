@@ -308,6 +308,7 @@ body {
   color: rgb(100, 100, 100);
   display: block;
   padding-top: 11px;
+  overflow: hidden;
 }
 
 .content .content-header h1 small .acronym {
