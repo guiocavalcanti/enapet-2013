@@ -713,8 +713,8 @@ address .contact-options li a:hover {
   padding-top: 3px;
 }
 
-.news {
-  margin-bottom: 30px;
+.content > .news {
+  margin-bottom: 10px;
 }
 
 .news .articles {
