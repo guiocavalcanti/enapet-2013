@@ -288,7 +288,6 @@ body {
 .content .content-header h1 {
   text-transform: uppercase;
   margin: 0;
-  margin-left: 30px;
   padding: 35px 0 30px 0;
   overflow: hidden;
 }
@@ -319,7 +318,7 @@ body {
 .content.hack .content-body,
 .content.inverse-hack .content-body {
   margin: 0 auto;
-  width: 1200px;
+  width: 1170px;
 }
 
 .content.inverse-hack {
@@ -583,7 +582,7 @@ address .contact-options li a:hover {
 /* Index page */
 .event-explanation {
   background-color: rgb(224, 62, 39);
-  padding: 30px 0 30px 30px;
+  padding: 30px 0;
   margin-left: 0;
   height: 291px;
 }
@@ -723,7 +722,7 @@ address .contact-options li a:hover {
 
 .news .articles {
   list-style: none;
-  padding: 0 30px;
+  padding: 0;
   margin-bottom: 40px;
 }
 
