@@ -47,11 +47,6 @@ a > small {
   font-style: italic;
 }
 
-/* Fixed layout */
-.container {
-  width: 1230px;
-}
-
 /* Menu */
 body {
   background-color: rgb(243, 247, 251);
@@ -317,7 +312,8 @@ body {
 }
 
  /* Content body */
-.content .content-body {
+.content.hack .content-body,
+.content.inverse-hack .content-body {
   margin: 0 auto;
   width: 1200px;
 }
@@ -343,11 +339,14 @@ body {
   height: 351px;
 }
 
+.hack + .container {
+  width: 1230px;
+}
+
 /* Contact page */
 .content .content-body .contact-form {
   background-color: rgb(243, 247, 251);
   margin: 0;
-  width: 572px;
   height: 413px;
   padding-top: 35px;
   padding-right: 30px;
@@ -439,9 +438,9 @@ body {
 /* Address */
 address {
   background-color: rgb(224, 62, 29);
-  padding: 50px 0 50px 40px;
+  padding: 42px 0 42px 40px;
   float: left;
-  margin: 0;
+  margin-left: 0 !important;
   width: 550px;
 
   background-image: url("../img/light-blue-nipple-right.png");
