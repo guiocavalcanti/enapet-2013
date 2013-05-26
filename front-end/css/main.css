@@ -569,7 +569,7 @@ address .contact-options li a:hover {
   color: rgb(255, 255, 255);
 }
 
-.tab-pane .hour-schedule li p {
+.tab-pane .hour-schedule li a {
   padding: 4px 5px;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -578,6 +578,7 @@ address .contact-options li a:hover {
   margin-bottom: 0;
   color: rgb(228, 71, 44);
   background-color: rgb(255, 255, 255);
+  display: block;
 }
 
 /* Index page */
