@@ -822,3 +822,20 @@ article ol {
   width: 545px;
   float: right;
 }
+
+/* Facebook plugin */
+#facebook-plugin {
+  float: right;
+  margin-top: 20px;
+}
+
+.content .content-header h1,
+.content .content-header .header-wrapper {
+  float: left;
+}
+
+.news-box #facebook-plugin {
+  position: relative;
+  top: -300px;
+  left: 120px;
+}
