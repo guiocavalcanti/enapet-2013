@@ -363,7 +363,7 @@ body {
 }
 
 .hack + .container {
-  width: 1230px;
+  width: 1170px;
 }
 
 /* Contact page */
@@ -461,11 +461,7 @@ body {
 /* Address */
 address {
   background-color: rgb(224, 62, 29);
-  padding: 42px 0 42px 40px;
-  float: left;
   margin-left: 0 !important;
-  width: 550px;
-
   background-image: url("../img/light-blue-nipple-right.png");
   background-position: 0 210px;
   background-repeat: no-repeat;
@@ -473,6 +469,8 @@ address {
 
 address .contact-options {
   list-style: none;
+  margin-top: 42px;
+  margin-left: 40px;
 }
 
 address .contact-options li {
@@ -640,7 +638,7 @@ address .contact-options li a:hover {
 }
 
 .news-box {
-  padding: 30px;
+  padding-top: 30px;
   padding-left: 0;
   height: 291px;
 }
