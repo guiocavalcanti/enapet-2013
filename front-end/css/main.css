@@ -215,7 +215,7 @@ body {
   background: url("../img/logotipo.png");
   width: 564px;
   height: 238px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .event-call .call-infos .subscription {
