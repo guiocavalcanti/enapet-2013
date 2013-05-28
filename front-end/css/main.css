@@ -198,9 +198,12 @@ body {
 }
 
 /* Event call */
-.event-call {
-  padding-top: 20px;
+.event-call .image-1 {
   background: url("../img/ilha-do-recife-edited.jpg") 0 1236px;
+}
+
+.event-call .image-2 {
+  background: url("../img/header-night.jpg") -30px -500px;
 }
 
 .event-call .call-infos {
@@ -212,7 +215,7 @@ body {
   background: url("../img/logotipo.png");
   width: 564px;
   height: 238px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .event-call .call-infos .subscription {
@@ -850,6 +853,7 @@ article ol {
 #social-networks {
   float: right;
   margin-right: 30px;
+  margin-top: 20px;
 }
 
 #social-networks li a {
