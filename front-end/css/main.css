@@ -351,7 +351,7 @@ body {
 
 .content-body .hack {
   background-color: rgb(243, 247, 251);
-  height: 448px;
+  height: 451px;
   float: left;
   width: 4000px;
   margin-left: -4000px;
@@ -370,7 +370,7 @@ body {
 .content .content-body .contact-form {
   background-color: rgb(243, 247, 251);
   margin: 0;
-  height: 413px;
+  height: 416px;
   padding-top: 35px;
   padding-right: 30px;
   float: left;
@@ -515,7 +515,7 @@ address .contact-options .twitter {
 }
 
 address .contact-options .email {
-  height: 26px;
+  height: 29px;
   background-position: 0 -280px;
 }
 
