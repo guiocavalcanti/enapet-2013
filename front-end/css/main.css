@@ -396,12 +396,17 @@ body {
   left: 200px;
 }
 
-.content .content-body .contact-form label {
+.content .content-body .contact-form .visuallyhidden {
   display: none;
  }
 
 .content .content-body .contact-form input,
 .content .content-body .contact-form textarea {
+  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 17px;
+  color: rgba(215, 62, 29, 0.8);
   width: 549px;
   margin-bottom: 15px;
   padding-left: 15px;
@@ -445,6 +450,14 @@ body {
 
 .content .content-body .contact-form input:-ms-input-placeholder,
 .content .content-body .contact-form textarea:-ms-input-placeholder {
+  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 17px;
+  color: rgba(215, 62, 29, 0.5);
+}
+
+.content .content-body .contact-form .placeholder {
   font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: oblique;
